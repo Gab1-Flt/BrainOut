@@ -40,12 +40,13 @@ The project is currently **in active development**. Core interface components an
 - [x] **Brain Dump & Voice Ingestion Zone** (`src/components/BrainDumpZone.tsx`) — Unstructured text input, real-time browser speech-to-text transcription (`Web Speech API`), live voice waveform indicators, and starter prompts.
 - [x] **Modular 5-Tab Project Workspace** (`src/components/ProjectView.tsx`) — Interactive workspace featuring the visual *Sketch* layout, *Notebook* MVP checklist with confetti feedback, *Mentor* Q&A reflection inputs, *Traps & Prerequisites* view, and *One-click Markdown export*.
 - [x] **Navigation Sidebar** (`src/components/Sidebar.tsx`) — Collapsible project explorer with real-time search, favorites filtering, and MVP progress badges.
+- [x] **AI Structuring Engine** (`src/services/aiService.ts`) — Direct client-side integration with the Google Gemini API (`gemini-1.5-flash` with JSON response mode) paired with an offline heuristic fallback engine.
+- [x] **Settings & Data Portability Modal** (`src/components/SettingsModal.tsx`) — Interface for managing the user's Gemini API key and exporting/importing project backups as JSON files.
+- [x] **Core Application State & Persistence** (`src/App.tsx`) — Global state orchestration, automatic `localStorage` synchronization, and global keyboard shortcuts (`Cmd/Ctrl + K`).
 
 ### In Progress / Upcoming
 
-- [ ] **AI Structuring Engine** (`src/services/aiService.ts`) — Direct client-side integration with the Google Gemini API (`gemini-1.5-flash` with JSON response mode) paired with an offline heuristic fallback engine.
-- [ ] **Settings & Data Portability Modal** (`src/components/SettingsModal.tsx`) — Interface for managing the user's Gemini API key and exporting/importing project backups as JSON files.
-- [ ] **Core Application State & Persistence** (`src/App.tsx`) — Global state orchestration, automatic `localStorage` synchronization, and global keyboard shortcuts (`Cmd/Ctrl + K`).
+- [ ] **UI/UX Redesign & Visual Polish** — Modernize the interface, improve dark/light mode contrast, and refine micro-interactions across all workspace tabs.
 
 <br />
 
